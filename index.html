@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="light-mode">
+    <main>
+        <div id="container">
+            <div id="div-team-change">
+                <button id="team-change-btn" onclick="changeMode();" value="1">Activate Dark Mode</button>
+            </div>
+            <div id="div-card" class="light-mode">
+                <div id="div-image">
+                    <img src="./assets/Image.jpg" alt="Angelica's profile photo" id="image"  class="light-mode">
+                </div>
+                <div id="div-socials">
+                    <div class="social" id="social-linkedin">
+                        <a href="https://www.linkedin.com/in/angelica-hernandez-jaimes/" target="_blank">
+                            <img src="./assets/linkedin-icon.webp" alt="Link to Angelica's Linkedin profile" class="icon social-img-one">
+                            <img src="./assets/LinkedIn_2021.svg.png" alt="Link to Angelica's Linkedin profile" class="icon social-img-two"
+                                id="linkedin-dos">
+                        </a>
+                    </div>
+                    <div class="social" id="social-github">
+                        <a href="https://github.com/AngeHernandezJ/" target="_blank">
+                            <img src="./assets/GitHub_Invertocat_Logo.svg.png" alt="Link to Angelica's GitHub repositories" class="icon social-img-one">
+                            <img src="./assets/0_N1fmHtI8gmkH_2Vu.png" alt="Link to Angelica's GitHub repositories" class="icon social-img-two">
+                        </a>
+                    </div>
+                </div>
+                <div id="div-position">
+                    <h2 class="light-mode" alt="Angelica Hernández Jaimes">Angelica Hernández Jaimes</h2>
+                    <h3 class="light-mode" alt="Position: Front-end Developer">Front-end Developer</h3>
+                </div>
+                <div id="div-modal">
+                    <label id="click-modal" class="light-mode" type="button" alt="Angelica's CV">Curriculum</label>
+                    <div id="modal">
+                        <div id="modal-cv">
+                            <span id="close-btn" alt="Close modal with CV">&times;</span>
+                            <h4 class="light-mode">CV - Angelica Hernández</h4>
+                            <iframe src="./assets/CV-AngelicaHernandez.pdf"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./app.js" async defer></script>
+</body>
+
+</html>
